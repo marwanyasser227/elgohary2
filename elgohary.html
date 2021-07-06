@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar"> 
+    <head>
+        <title>الجوهري للتصميم</title>
+        <meta name="elgohary">
+        <meta name = "description" content="design, portriat, photoshop, illustraitor, indesgin, card, webdesign, graphic design, التصميم, الويب, تصميم المواقع, بورتريه, التصميم, جرافيك ديزاين, الخط العربي">
+        <meta name= "author" content="MarwanYasser">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&family=Tajawal&display=swap" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="C:\Users\Marwan Pr\Desktop\My web\fontawesome-free-5.15.3-web\fontawesome-free-5.15.3-web\css/all.css">
+        <style>
+            body{
+                font-family: cairo,sans-serif;
+                display: contents;
+              
+
+            }
+            .mainheader{
+                display: flex;
+                padding: 20px;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #0e0d0d;;
+                color: white;
+                border-bottom: 2px solid #dbc713;
+                
+            }
+            
+            .list{
+                display: inline;
+                padding: 30px;
+                margin: 5px;
+                width: auto;
+                height:20px;
+            }
+            .list:hover{
+                opacity: 0.7;
+                color: tomato;
+                transition:1s;
+            }
+            h1{
+                font-size: 40pt;
+                font-weight: 900;
+                line-height:1 ;
+            }
+            h2{
+                font-size: 30pt;
+                line-height:1 ;
+            }
+            h3{
+                text-align: center;
+                font-size: 40pt;
+            }
+           
+            .slider{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-attachment: fixed;
+                height: 700px;
+                background-size: cover;
+                
+             
+                color: white;
+                background-image: url(imgs/back.jfif);
+                 
+                
+
+            }
+            button{
+                width: 170px;
+                height: 60px;
+                background-color:  tomato;
+               
+                font-size: 14pt;
+                font-weight: 900;
+                color: white;
+                font-family: cairo;
+                margin-top: 10px;
+            
+
+                border-radius: 5px;
+                border-style: none;
+                box-shadow: 4px 2px 20px #000000;
+                
+            }
+            button:hover{
+                opacity: 0.7;
+         
+                background-color: #242422;
+                transition:cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+            }
+            .contact{
+                display: flex;
+                flex-direction: row;
+                padding: 10px;
+                background-color:#131313; ;
+                justify-content: space-around;
+                align-items: center;
+
+            }
+            .font1{
+                font-family: cairo;
+                color: white;
+                font-size: 14pt;
+                font-weight: 900;
+            }
+            .social{
+                color: white;
+            }
+            .social:hover{
+                opacity: 0.7;
+                transition: cubic-bezier(0.165, 0.84, 0.44, 1)0.5s;
+                color: tomato;
+            }
+            .grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: auto;
+                grid-gap: 30px;
+                grid-template-areas: "pc1 pc1 pc1"
+                "pc2 pc2 pc2";
+                justify-content: center;
+                padding: 20px;
+            }
+            .pc1{
+                grid-area: pc1;
+                display: flex;
+                justify-content:center;
+                
+                
+            }
+            .pc2{ grid-area: pc2;
+            display: flex;
+            justify-content: center;
+            }
+            .img-p{
+                width: 480px;
+                padding: 25px;
+            }
+            .img-p:hover{
+                opacity: 0.7;
+                transition:1s;
+                
+
+            }
+            .location{
+                margin-top: 60px;
+                display: flex;
+                justify-content:center;
+                margin-bottom: 50px;
+            }
+            footer{
+                background-color: #0e0d0d;
+                padding: 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                color: white;
+            }
+            i{
+                padding-left: 10px;
+                padding-right: 10px;
+                color: white;
+            }
+            
+
+            
+        </style>
+     </head>
+     <body>
+         <header class="mainheader">
+             <div class="RS">
+                 <img src="imgs/logo.png">
+             </div>
+             <div class="LS">
+                 <nav>
+                     <ul>
+                         <li class="list">الرئيسية</li>
+                         <li class="list">سياسية الخصوصية</li>
+                         <li class="list">من نحن</li>
+                         <li class="list">تواصل معنا</li>
+                     </ul>
+                 </nav>
+             </div>
+         </header>
+         <section class="slider">
+             <h1>هدفنا التميز دائماً</h1>
+             <h2>وأرضاء العميل غايتنا</h2>
+         
+             <div>
+             <button> أطلب الأن</button>
+            </div>
+         </section>
+         
+         <section class="contact"> 
+             <span class="font1">أطلب تصميمك الأن</span>
+           
+                 <a href = "https://api.whatsapp.com/send?phone=201014031563+">
+                    <i class="fab fa-whatsapp fa-3x" id="social"></i>
+                </a>
+         
+         </section>
+         
+         
+         <section class="grid">
+             <div class="pc1">
+                 <img src="imgs/1.jpg" class="img-p">
+                 <img src="imgs/2.jpg" class="img-p">
+                 <img src="imgs/3.jpg" class="img-p">
+             </div>
+             <div class="pc2">
+                 <img src="imgs/4.jpg" class="img-p">
+                 <img src="imgs/5.jpg" class="img-p">
+                 <img src="imgs/6.jpg" class="img-p">
+             </div>
+         </section>
+         <section class="location">
+            <div>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27347.642553472673!2d31.400349236986045!3d31.04142173785301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79db7a9053547%3A0xf8dab3bbed766c97!2z2KfZhNmF2YbYtdmI2LHYqdiMINin2YTZhdmG2LXZiNix2KkgKNmC2LPZhSAyKdiMINin2YTZhdmG2LXZiNix2KnYjCDYp9mE2K_ZgtmH2YTZitip!5e0!3m2!1sar!2seg!4v1625502662948!5m2!1sar!2seg" width="1540px" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </section>
+       
+         <footer>
+             <div>
+                 <p>
+                     جميع الحقوق محفوظة للجوهري  | 2020 - 2021
+                 </p>
+                </div>
+                <div>
+                 
+             
+                    <span>
+                          تصميم مروان ياسر    |  
+                    </span>
+                 <i class="fab fa-facebook"></i>
+                 <i class="fab fa-instagram"></i>
+                 <i class="fab fa-whatsapp"></i>
+                </div>
+           
+         </footer>
+     </body>   
+</html>
+
